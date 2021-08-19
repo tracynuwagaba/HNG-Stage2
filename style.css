@@ -1,24 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
   font-size: 1rem;
   line-height: 1.5rem;
   color: #555;
+  background: #585c68;
 }
 
 .bold {
   text-transform: uppercase;
   font-size: 1.25rem;
   letter-spacing: 0.2rem;
-  font-family: "Abril Fatface", cursive;
+  font-family: 'Abril Fatface', cursive;
 }
 
 .semi-bold {
@@ -131,7 +132,8 @@ body {
 
 .resume-right {
   padding: 1.5rem;
-  margin-bottom: 2rem;
+  /* margin-bottom: 1rem; */
+  background: #fff;
 }
 
 .resume-right .bold {
@@ -193,4 +195,49 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* large screens */
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+  }
+  .resume {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+  }
+  .resume-left {
+    width: 280px;
+  }
+  .bold {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+  .semi-bold {
+    font-size: 0.8rem;
+  }
+  .icon {
+    cursor: pointer;
+  }
+  .resume-social a:hover {
+    color: #b1eaff;
+  }
+  .skill-name {
+    cursor: pointer;
+  }
+  .skill-name:hover {
+    background: #b1eaff;
+    color: #fff;
+  }
+  .organisation a {
+    font-size: 0.8rem;
+  }
+  .info {
+    line-height: 1.2rem;
+  }
+  .resume-hobby ul {
+    cursor: pointer;
+  }
 }
