@@ -200,8 +200,8 @@ body {
 /* large screens */
 @media screen and (min-width: 768px) {
   body {
-    font-size: 1rem;
-    line-height: 1.2rem;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
   }
   .resume {
     width: 80vw;
@@ -209,7 +209,7 @@ body {
     flex-direction: row;
   }
   .resume-left {
-    width: 300px;
+    width: 280px;
   }
   .bold {
     font-size: 1.2rem;
@@ -235,7 +235,7 @@ body {
     font-size: 1rem;
   }
   .info {
-    line-height: 1.2rem;
+    line-height: 1.5rem;
   }
   .resume-hobby ul {
     cursor: pointer;
