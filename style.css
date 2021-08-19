@@ -200,7 +200,7 @@ body {
 /* large screens */
 @media screen and (min-width: 768px) {
   body {
-    /* font-size: 1rem; */
+    font-size: 1.5rem;
     line-height: 1.2rem;
     display: flex;
     justify-content: center;
