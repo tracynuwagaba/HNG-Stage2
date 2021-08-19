@@ -200,7 +200,7 @@ body {
 /* large screens */
 @media screen and (min-width: 768px) {
   body {
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 1.2rem;
   }
   .resume {
@@ -209,7 +209,7 @@ body {
     flex-direction: row;
   }
   .resume-left {
-    width: 280px;
+    width: 300px;
   }
   .bold {
     font-size: 1.2rem;
