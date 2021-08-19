@@ -200,7 +200,7 @@ body {
 /* large screens */
 @media screen and (min-width: 768px) {
   body {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height: 1.5rem;
   }
   .resume {
@@ -220,6 +220,9 @@ body {
   }
   .icon {
     cursor: pointer;
+  }
+  .resume-social a {
+    width: 500px;
   }
   .resume-social a:hover {
     color: #b1eaff;
