@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -17,7 +17,8 @@ body {
 .bold {
   text-transform: uppercase;
   font-size: 1.25rem;
-  font-family: "Abril Fatface", cursive;
+  letter-spacing: 0.2rem;
+  font-family: 'Abril Fatface', cursive;
 }
 
 .semi-bold {
@@ -25,18 +26,114 @@ body {
   font-weight: 600;
 }
 
+ul {
+  list-style: none;
+}
+
 .resume {
-  width: 80vw;
+  width: 95vw;
   height: auto;
   display: flex;
   flex-direction: column;
-  margin: 3rem auto;
+  margin: 1rem auto;
+}
+
+.resume-left {
+  background: #0abab5;
+}
+
+.resume-profile {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center right;
+  padding-bottom: 1rem;
 }
 
 .resume-content {
   padding: 0 1.5rem;
 }
 
+.resume-item {
+  padding: 1.5rem 0;
+  border-bottom: 2px solid #b1eaff;
+}
+
+.resume-left .resume-item:last-child,
+.resume-right .resume-item:last-child {
+  border-bottom: 0px;
+}
+
 .title {
   margin-bottom: 1.25rem;
+}
+
+.resume-left .bold {
+  color: #fff;
+}
+
+.resume-left .regular {
+  color: #b1eaff;
+}
+
+.resume-info ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.6rem;
+  color: #b1eaff;
+}
+
+.resume-info ul li:last-child {
+  margin-bottom: 0rem;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  color: #0abab5;
+  border-radius: 50%;
+  position: relative;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.icon i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.resume-about {
+  color: #b1eaff;
+}
+
+.resume-social a {
+  color: #fff;
+  width: 200px;
+  margin-right: 0.6rem;
+}
+
+.resume-skills ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.skill-name {
+  background: #fff;
+  padding: 0.75rem 1rem;
+  color: #0abab5;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.resume-right {
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.resume-right .bold {
+  color: #0abab5;
 }
