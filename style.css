@@ -200,8 +200,8 @@ body {
 /* large screens */
 @media screen and (min-width: 768px) {
   body {
-    font-size: 1.2rem;
-    line-height: 1rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
   }
   .resume {
     width: 80vw;
@@ -212,11 +212,11 @@ body {
     width: 280px;
   }
   .bold {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     letter-spacing: 0.1rem;
   }
   .semi-bold {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .icon {
     cursor: pointer;
@@ -232,10 +232,10 @@ body {
     color: #fff;
   }
   .organisation a {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .info {
-    line-height: 1rem;
+    line-height: 1.2rem;
   }
   .resume-hobby ul {
     cursor: pointer;
