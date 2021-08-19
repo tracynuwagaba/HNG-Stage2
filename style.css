@@ -200,7 +200,7 @@ body {
 /* large screens */
 @media screen and (min-width: 768px) {
   body {
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1.2rem;
   }
   .resume {
@@ -212,11 +212,11 @@ body {
     width: 280px;
   }
   .bold {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     letter-spacing: 0.1rem;
   }
   .semi-bold {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .icon {
     cursor: pointer;
@@ -232,7 +232,7 @@ body {
     color: #fff;
   }
   .organisation a {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .info {
     line-height: 1.2rem;
