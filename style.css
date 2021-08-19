@@ -207,7 +207,7 @@ body {
     align-items: center;
   }
   .resume {
-    width: 80vw;
+    /* width: 80vw; */
     display: flex;
     flex-direction: row;
   }
